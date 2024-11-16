@@ -1,0 +1,268 @@
+.product {
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.product .left {
+  width: 50%;
+}
+
+.product .right {
+  width: 50%;
+}
+
+.product .discount {
+  width: 85%;
+  height: 5rem;
+  margin-top: -0.3rem;
+
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: red;
+  font-style: italic;
+  letter-spacing: -3px;
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffff00),
+    to(#ffeb3b)
+  );
+
+  background-image: linear-gradient(to right, #ffff00, #ffeb3b);
+  border-radius: 10px;
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+.product .discount div {
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+}
+
+.product .price {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1;
+  color: #1bff26;
+  letter-spacing: -3px;
+}
+
+.product .discount-text {
+  margin-top: 1rem;
+
+  color: #ffffff;
+}
+
+.product .price p {
+  display: inline-block;
+  margin: 0;
+}
+
+.product .price span {
+  margin-left: 5px;
+
+  font-weight: 300;
+  font-size: 2.5rem;
+  vertical-align: super;
+  font-style: italic;
+}
+
+.countdown-container {
+  margin: 2rem 1rem;
+  margin-top: 0;
+
+  text-align: center;
+
+  border: 5px solid #fffd07;
+}
+
+.countdown-container h3 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -12px;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fffd07;
+  text-transform: uppercase;
+
+  background: #000000;
+}
+
+.countdown {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0.6rem 0;
+
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+.countdown-item {
+  width: 4rem;
+  margin-right: 0.5rem;
+
+  font-weight: 800;
+  color: red;
+}
+
+.countdown-divider {
+  width: 2rem;
+
+  color: red;
+}
+
+.countdown-text {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: -8px;
+
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: #fffd07;
+  text-transform: uppercase;
+
+  background: #000000;
+}
+
+.countdown-text span {
+  width: 4rem;
+  margin-right: 1.5rem;
+}
+
+.countdown-text span:last-child {
+  margin-right: 0;
+}
+
+.al-form {
+  margin: 2rem 1rem;
+}
+
+.country-input,
+.name-input,
+.phone-input {
+  display: -webkit-box;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+
+  font-size: 20px;
+  color: #000000;
+
+  background: #ffffff;
+  border: 2px solid #000;
+  border-radius: 3px;
+
+  -webkit-transition: all 0.15s ease-in-out;
+
+  transition: all 0.15s ease-in-out;
+}
+
+.country-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff url('./../images/triangle.png') no-repeat 97% center;
+}
+
+.name-input input,
+.phone-input input {
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 0;
+  padding: 10px 15px;
+
+  font: inherit;
+  color: inherit;
+
+  border: 0;
+  border-radius: 3px;
+}
+
+.button-submit:focus,
+.name-input:focus-within,
+.phone-input:focus-within {
+  outline: 0;
+  box-shadow: 0 0 0 4px #bdab3c;
+}
+
+.name-input:focus-within input,
+.phone-input:focus-within input {
+  outline: 0;
+}
+
+.country-input {
+  padding: 10px 15px;
+}
+
+.country-input .country {
+  align-self: center;
+  width: 24px;
+  height: 18px;
+  margin-right: 5px;
+
+  border-radius: 4px;
+}
+
+.phone-input label {
+  align-self: center;
+  margin: 0;
+  margin-right: 5px;
+  padding-left: 15px;
+
+  font-weight: bold;
+}
+
+
+.button-submit {
+  display: block;
+  margin-inline: auto;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(255, 13, 0);
+  border-radius: 10px;
+  padding: 10px 20px;
+  animation: pulse 2s 2s infinite;
+}
+
+
+.item-gift {
+  display: none;
+  margin: 10px 0;
+
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: darkred;
+  text-shadow: 1px 1px 1px #0000008c;
+}
+
+.item-gift .old {
+  font-size: 20px;
+  color: #b8b8b8;
+  text-decoration: line-through;
+}

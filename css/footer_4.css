@@ -1,0 +1,74 @@
+.footer {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: rgb(255, 255, 255);
+}
+
+.footer__wrapper {
+  padding: 20px;
+  background-color: rgb(57, 119, 211);
+}
+.footer__contact {
+  margin-bottom: 20px;
+}
+.footer__title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.footer__addres {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+.footer__addres svg {
+  width: 29px;
+}
+.footer__email {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.footer__email svg {
+  width: 29px;
+}
+.footer__service {
+  margin-bottom: 20px;
+}
+.footer__service-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 10px;
+}
+.footer__service-item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.footer__service-item svg {
+  width: 29px;
+}
+.footer__cards {
+  display: inline-flex;
+  padding: 10px 20px;
+  column-gap: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.footer__cards img {
+  max-width: 52px;
+  width: 100%;
+}
+.footer__copyright {
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
